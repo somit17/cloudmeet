@@ -7,7 +7,7 @@ mkdir -p backend
 
 # Step 2: Move the Next.js project into the frontend folder
 echo "Moving Next.js project into the 'frontend' folder..."
-mv -v nextjs_project/* frontend/ # Replace 'nextjs_project' with the actual folder name of your Next.js project
+mv -v cloudmeet/* frontend/ # Replace 'nextjs_project' with the actual folder name of your Next.js project
 
 # Step 3: Move the .NET Core Web API project into the backend folder
 echo "Moving .NET Core Web API project into the 'backend' folder..."
