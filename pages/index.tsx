@@ -3,13 +3,20 @@ import HomePage from '../components/HomePage';
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
-import 'primeflex/primeflex.css'; 
-
+import 'primeflex/primeflex.css';
+import Registration from '../components/Registration';
+import { GlobalProvider } from '../contextAPI/GlobalContext';
+import Layout from '../components/Layout/Layout';
 const Home = () => {
   return (
     <>
-      <h1>CloudMeet - Video Conferencing</h1>
-      <HomePage />
+      <GlobalProvider>
+
+        {/* <HomePage />
+        <Registration /> */}
+
+        <Layout />
+      </GlobalProvider>
     </>
   );
 };
