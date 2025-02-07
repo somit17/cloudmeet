@@ -1,49 +1,46 @@
 # CloudMeet
 
-CloudMeet is a video conferencing platform inspired by Zoom and Google Meet. This project is built using Next.js, TypeScript, and PrimeReact.
+CloudMeet is a video conferencing application inspired by Zoom and Google Meet. It is built using Next.js, TypeScript, and PrimeReact.
 
 ## Features
 
-- **Video Conferencing**: Real-time video and audio communication.
-- **User Registration**: Simple registration form for new users.
-- **Responsive Design**: Built with modern UI components from PrimeReact.
-
-## Technologies Used
-
-- **Next.js**: Framework for building server-rendered React applications.
-- **TypeScript**: Adds static types to JavaScript.
-- **PrimeReact**: A rich set of open-source UI components.
-- **React Icons**: Icons library for React.
-- **Axios**: Promise-based HTTP client for making API calls.
+- Video conferencing capabilities (coming soon)
+- User registration
+- Modern UI with PrimeReact components
 
 ## Getting Started
 
 1. Clone the repository:
+
    ```
-   git clone https://github.com/yourusername/cloudmeet.git
+   git clone https://github.com//cloudmeet.git
    ```
 
-2. Navigate to the project directory:
-   ```
-   cd cloudmeet
-   ```
+2. Install dependencies:
 
-3. Install dependencies:
    ```
    npm install
    ```
 
-4. Run the development server:
+3. Run the development server:
+
    ```
    npm run dev
    ```
 
-5. Open your browser and visit [http://localhost:3000](http://localhost:3000).
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Technologies Used
+
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **TypeScript**: JavaScript with syntax for types.
+- **PrimeReact**: A rich set of open-source UI components for React.
+- **PrimeFlex**: Lightweight CSS utility library.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
