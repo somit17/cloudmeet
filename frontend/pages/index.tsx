@@ -5,18 +5,19 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css';
 import 'font-awesome/css/font-awesome.min.css';
-import Registration from '../components/Registration';
-import { GlobalProvider } from '../contextAPI/GlobalContext';
+import Registration from '../components/Auth/Registration';
 import Layout from '../components/Layout/Layout';
+import Login from "../components/Auth/Login";
+import { GlobalProvider } from '../contextAPI/GlobalContext';
 const Home = () => {
   return (
     <>
       <GlobalProvider>
 
-        {/* <HomePage />
-        <Registration /> */}
-
-        <Layout />
+         <HomePage />
+        <Registration />
+        <Login />
+        {/*<Layout />*/}
       </GlobalProvider>
     </>
   );
